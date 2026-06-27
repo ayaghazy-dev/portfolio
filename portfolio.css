@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4c2666;
+}
+header{
+    display: flex;
+    flex-direction: row;
+   background-color: #30193f;
+}
+header img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%; 
+    padding-left: 70px;
+    padding-top: 4px;
+    padding-right: 90px;
+}
+header ul {
+    display: flex;
+    gap: 110px;
+    list-style: none;
+    margin-top: 25px;
+    padding-right: 70px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #e8d5ff;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section {
+    scroll-margin-top: 50px;
+}
+.hero{
+  background-image: url('hero_section.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 0px;
+  background-color: #1a0a2e;
+}
+.hero h1 { 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 67px;
+color: #e8d5ff;
+padding-top: 210px;
+padding-left: 670px;
+}
+.hero h2 { 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:25px;
+color: #e8d5ffc0;
+padding-left: 840px;
+}
+.hero h3 { 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:19px;
+color: #e8d5ffc0;
+padding-left: 676px;
+}
+.about{
+    background-color: #4c2666;
+    height: 500px;
+}
+.about h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    color: #e8d5ff;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.about p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+color: #e8d5ffcb;
+border: 2px #e8d5ff solid;
+border-radius: 20px;
+margin-right: 70px;
+margin-left: 70px;
+padding: 30px;
+}
+.skill{
+     background-color: #4c2666;
+      height: 1150px;
+}
+.skill h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    color: #e8d5ff;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.skl h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #e8d5ff;
+    padding-top: 10px;
+    padding-top: 150px;
+}
+.skil{
+    border: 2px #e8d5ff solid;
+    border-radius: 20px;
+    height: 225px;
+    width: 185px;
+    margin: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease 0.1s;
+}
+.skil img{
+    height: 100px;
+    width: 100px;
+    padding-top: 35px;
+   padding-left: 25px;
+}
+.skil h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+   color: #e8d5ffcb;
+}
+.skl{
+    display: flex;
+    flex-direction: row;
+}
+.sklss{
+    display: flex;
+    flex-direction: row;
+    margin-left: 280px;
+    margin-bottom: 90px;
+}
+.skils{
+    border: 2px #e8d5ff solid;
+    border-radius: 20px;
+    height: 225px;
+    width: 185px;
+    margin: 30px;
+}
+.skils h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #e8d5ffcb;
+}
+.skils img{
+    height: 100px;
+    width: 100px;
+    padding-top: 35px;
+   padding-left: 40px;
+}
+.skl h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #e8d5ff;
+    padding-top: 60px;
+}
+.skilll{
+    border: 2px #e8d5ff solid;
+    border-radius: 20px;
+    height: 235px;
+    width: 185px;
+    margin: 30px;
+}
+.skilll img{
+    height: 100px;
+    width: 100px;
+    padding-top: 35px;
+   padding-left: 25px;
+}
+.skilll h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #e8d5ffcb;
+}
+#skil:hover {
+     box-shadow: 0 12px 25px #e8d5ff57;
+ }
+ .projects{
+     background-color: #4c2666;
+      height: 2220px;
+ }
+ .proj{
+     display: flex;
+    flex-direction: row;
+ }
+ .projects h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    color: #e8d5ff;
+    padding-top: 30px;
+    text-decoration: underline;
+ }
+ .pro img{
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 30px;
+   padding-left: 50px;
+ }
+ .pro h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+   color: #e8d5ffe0;
+ }
+ .pro p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #e8d5ffb4;
+    text-align: center;
+ }
+ .pro a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 250px;
+    color: violet;
+ }
+ .pro{
+    border: 2px #e8d5ff solid;
+    border-radius: 20px;
+    height: 450px;
+    width: 900px;
+    margin: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease 0.1s;
+ }
+ .pros{
+    border: 2px #e8d5ff solid;
+    border-radius: 20px;
+    height: 450px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 370px;
+ }
+ .pros img{
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 30px;
+   padding-left: 50px;
+ }
+ .pros h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+   color: #e8d5ffe0;
+ }
+ .pros p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #e8d5ffb4;
+    text-align: center;
+ }
+ .pros a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 250px;
+    color: violet;
+ }
+ #pr:hover {
+     box-shadow: 0 12px 25px #e8d5ff57;
+ }
+ .hire{
+background-color: #4c2666;
+      height: 420px;
+ }
+ .whm{
+  display: flex;
+  flex-direction: row;
+ }
+ .whm h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    color: #e8d5ff;
+    padding-top: 30px;
+    text-decoration: underline;
+    padding-left: 40px;
+    padding-top: 120px;
+ }
+ .whm p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #e8d5ffd7;
+    border: 2px #e8d5ff solid;
+    border-radius: 20px;
+    height: 230px;
+    width: 800px;
+    padding-left: 35px;
+    padding-top: 40px;
+   margin-top: 70px;
+   margin-left: 40px;
+   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease 0.1s;
+ }
+ #hir:hover {
+     box-shadow: 0 12px 25px #e8d5ff57;
+ }
+ .contact{
+    background-color: #4c2666;
+      height: 210px;
+ }
+ .contact h1{
+     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    color: #e8d5ff;
+    padding-top: 30px;
+    text-decoration: underline;
+ }
+ .con img {
+    height: 20px;
+    width: 20px;
+ }
+ .con a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: #e8d5ffe0;
+ }
+ .cot{
+    display: flex;
+  flex-direction: row;
+ }
+ .con{
+    margin-left: 135px;
+ }
+ footer{
+   background-color: #30193f;
+   height: 50px;
+}
+footer h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #e8d5ffee;
+    font-size: 17px;
+    padding-top: 15px;
+}
+hr {
+    border: none;
+    margin: 0;
+}
